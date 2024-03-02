@@ -8,7 +8,7 @@ The caching library provides a thread-safe interface for storing and retrieving 
 
 - FIFO (First-In-First-Out)
 - LIFO (Last-In-First-Out)
-- LRU (Least Recently Used
+- LRU (Least Recently Used)
 - LFU (Least Frequently Used)
 
 Users can also implement custom eviction policies by implementing the `EvictionPolicy` interface.
